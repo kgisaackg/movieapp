@@ -1,0 +1,33 @@
+tr:nth-child(even) {
+    background-color: rgb(223, 223, 252);
+}
+
+.customBtn{
+    color: #fff;
+    background-color: blue;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.card{
+    max-width: 450px;
+    max-height: 300px;
+    overflow-y: auto;
+    position: absolute;
+    left: 120px; /*I think this should be changed for mobile*/
+    z-index: 1;
+}
+
+.card-text{
+    border-bottom: 1px solid  blue;
+
+}
+
+.img-card{
+    max-width: 180px;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+}
