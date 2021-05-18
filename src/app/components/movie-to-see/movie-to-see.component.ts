@@ -73,5 +73,14 @@ export class MovieToSeeComponent implements OnInit {
          //to close list
          this.results.length = 0; 
     })
-  } 
+  }
+  
+  add(movie: any){
+    this.movies.push(movie);
+  }
+
+  delete(movie: string){
+    //create a new array of objects
+  }
+
 }
